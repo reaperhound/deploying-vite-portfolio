@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --primary-color : #222222;
+  --secondary-color:#d7cf07;
+  --third-color: #e6fafc;
+  --fourth-color: #837a75;
+  --fifth-color: #f7b2ad;
+}
+
+* {
+  margin: 0;
+  background-color: var(--primary-color);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.content-div {
+  background-image: url(./assets/RPS.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+
+}
+
+
